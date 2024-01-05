@@ -6,7 +6,7 @@ import { SearchForm } from "./search-form";
 
 export function SideHeaderMenu() {
    return (
-      <div className="flex flex-col w-[300px] mt-10 gap-8 border border-zinc-200">
+      <div className="flex flex-col w-[300px] h-[calc(100dvh-80px)] mt-10 gap-8 border border-zinc-200">
          <Link href="/">
             <Image
                src={Steam_logo}
