@@ -8,7 +8,7 @@ export default function StoreLayout({ children }: { children: ReactNode }) {
    return (
       <div className="mx-auto min-h-screen w-full max-w-[1600px] flex gap-3">
          <SideHeaderMenu />
-         <div className="mt-10 w-full border">
+         <div className="mt-10 w-full">
             <Header />
             {children}
          </div>
