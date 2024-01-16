@@ -19,7 +19,7 @@ export function SideHeaderMenu() {
             />
          </Link>
          <div className="h-full flex flex-col justify-between">
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-7 mt-3">
                <span className="flex gap-4 pl-9">
                   <Gamepad2 />
                   Game store
@@ -38,7 +38,7 @@ export function SideHeaderMenu() {
                </span>
             </div>
 
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-7">
                <span className="flex gap-4 pl-9">
                   <Settings />
                   Settings

@@ -12,7 +12,7 @@ export function SearchForm() {
             name="searchgame"
             placeholder="Search games"
             required
-            autoComplete="false"
+            autoComplete="off"
          />
       </form>
    );
